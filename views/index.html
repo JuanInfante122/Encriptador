@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Mensajes</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script defer src="../javascript/logic.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Encriptador de Mensajes</h1>
+    </header>
+
+    <main>
+        <section class="instructions">
+            <p>Puedes ingresar la información que deseas cifrar para que sea más difícil que las personas incorrectas lean el mensaje o descifrar para entender qué te enviaron.</p>
+        </section>
+
+        <form action="" name="ingreso">
+            <div>
+                <label for="texto">Ingrese el texto que desea cifrar o descifrar</label>
+                <textarea name="texto" id="texto"></textarea>
+            </div>
+            <div class="buttons">
+                <button type="button" id="encryptBtn">Cifrar</button>
+                <button type="button" id="decryptBtn">Descifrar</button>
+            </div>
+        </form>
+
+        <div class="mensaje">
+            <label for="print">Aquí está tu texto</label>
+            <p id="print"></p>
+            <button type="button" id="copyBtn">Copiar</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>@2024 Encriptador de Mensajes</p>
+    </footer>
+</body>
+</html>
