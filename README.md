@@ -56,7 +56,7 @@ Contiene el código JavaScript que maneja la lógica de encriptar, desencriptar 
 
 1. Clona el repositorio:
     ```sh
-    git clone https://github.com/tu-usuario/encriptador-de-mensajes.git
+    https://github.com/JuanInfante122/Encriptador.git
     ```
 2. Navega al directorio del proyecto:
     ```sh
